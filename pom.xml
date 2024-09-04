@@ -15,7 +15,7 @@
     </properties>
     <dependencies>
         <dependency>
-            <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+            <!-- jsoup HTML parser library @ https://jsoup.org/ added the dependency for jsoup -->
             <groupId>org.jsoup</groupId>
             <artifactId>jsoup</artifactId>
             <version>1.18.1</version>

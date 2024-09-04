@@ -14,7 +14,7 @@ public class Main {
         try {
             Document connection = Jsoup.connect(url).get();
             Elements books = connection.select(".product_pod");
-            System.out.println("=============BOOK SCRAPPER==============");
+            System.out.println("=============BOOK SCRAPPER=============");
             System.out.println("Books-------------------------Price");
             for (Element bk : books) {
                 String title = bk.select("h3>a").text();
